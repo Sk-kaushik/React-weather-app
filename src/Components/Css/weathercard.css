@@ -1,0 +1,82 @@
+.weather-card-container {
+  height: 12em;
+  width: 11em;
+  border: 1px solid #858585;
+  background: linear-gradient(rgba(51, 9, 62, 0.67), rgba(66, 66, 66, 0));
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-radius: 5px;
+  margin: 20px 20px;
+}
+
+.time-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  color: #eee;
+}
+
+.weather-forecast-temp {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.weather-card-icon {
+  width: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -20px;
+}
+.weather-card-icon img {
+  width: 70%;
+}
+.weather-card-temp {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.weather-card-temp span {
+  display: flex;
+}
+
+.weather-card-temp span p {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+.weather-card-temp h1 {
+  font-size: 3em;
+  font-weight: 500;
+}
+.weather-card-temp h3 {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+.weather-card-container button {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  bottom: -1px;
+  right: -1px;
+  border: 1px solid #858585;
+  border-bottom: 0;
+  border-radius: 0 0 5px 0;
+  background: linear-gradient(rgba(51, 9, 62, 0.67), rgba(66, 66, 66, 0));
+  color: white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.weather-card-container button h3 {
+  font-weight: 400;
+}
+
+.weather-card-container button:hover {
+  background: rgba(0, 0, 0, 0.445);
+}

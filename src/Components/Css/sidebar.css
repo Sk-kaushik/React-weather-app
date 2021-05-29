@@ -1,0 +1,175 @@
+.sidebar-container {
+  float: right;
+  width: 30em;
+  min-height: 100vh;
+  background: linear-gradient(
+    to bottom,
+    rgba(31, 2, 15, 0.78),
+    rgba(19, 28, 43, 0)
+  );
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+}
+
+.sidebar {
+  width: 90%;
+}
+.location-search {
+  width: 100%;
+  margin: 5em auto;
+  height: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.location-search span {
+  height: 90%;
+  width: 80%;
+  background: none;
+  border: 1px solid rgb(211, 211, 211);
+  padding: 0 5px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+}
+i {
+  display: flex;
+  height: 100%;
+  width: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.location-search input {
+  height: 90%;
+  background: none;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 1.1em;
+}
+
+.location-search .src-icon {
+  height: 20px;
+  width: 20px;
+  transition: 0.3s;
+}
+
+.location-search span:hover .src-icon {
+  height: 25px;
+  width: 25px;
+}
+.location-search button {
+  height: 90%;
+  width: 3em;
+  background: rgba(196, 196, 196, 0.43);
+  border-radius: 10px;
+  margin-left: 20px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s ease;
+  display: flex;
+  justify-content: center;
+}
+.location-search button img {
+  width: 50%;
+}
+
+.location-search button:hover {
+  background: rgba(92, 92, 92, 0.562);
+}
+
+.location-data h1 {
+  font-size: 3em;
+  color: white;
+}
+.location-data p {
+  color: #eee;
+}
+
+.weather-container {
+  display: flex;
+  height: 10em;
+  margin-top: 2em;
+  align-items: center;
+}
+
+.weather-icon {
+  width: 7em;
+  height: 80%;
+  display: flex;
+  align-items: center;
+}
+
+.weather-icon img {
+  width: 80%;
+}
+
+.weather {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.weather span {
+  display: flex;
+}
+
+.weather span p {
+  font-size: 1.5em;
+  font-weight: 700;
+  line-height: 2.5em;
+}
+.weather h1 {
+  font-size: 4.5em;
+  font-weight: 600;
+}
+.weather h3 {
+  font-size: 2em;
+  padding-top: 25px;
+}
+
+.weather-report {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 2em;
+  background: linear-gradient(
+    to bottom,
+    rgba(31, 2, 15, 0.568),
+    rgba(19, 28, 43, 0.24)
+  );
+  padding: 20px 0;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.row > div {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.row h1 {
+  font-size: 1.5em;
+  font-weight: 500;
+  color: rgb(221, 221, 221);
+  margin-bottom: 5px;
+}
+
+.row h2 {
+  font-size: 1.3em;
+  font-weight: 400;
+  color: rgb(221, 221, 221);
+}
+.row2 {
+  margin-top: 2.5em;
+}
