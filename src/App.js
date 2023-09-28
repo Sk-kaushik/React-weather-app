@@ -7,7 +7,7 @@ import dayImg from "./res/dayBg.png";
 import nightImg from "./res/nightBg.png";
 
 function App() {
-  const API_KEY = "6b9de5dc91a94676a72101005212705";
+  const API_KEY = "API_KEY";
   const [city, setCity] = useState("");
   const [search, setSearch] = useState("Mumbai");
   const [weather, setWeather] = useState(null);
